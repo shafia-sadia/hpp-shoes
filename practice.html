@@ -1,0 +1,506 @@
+<html><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nike,Just Do it</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+    .carousel-container {
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .carousel {
+      display: flex;
+      transition: transform 0.5s ease-in-out;
+      width: 300%;
+    }
+    
+    .carousel-item {
+      width: 33.333%;
+      flex-shrink: 0;
+    }
+    
+    .hero-zoom {
+      animation: zoomEffect 20s infinite alternate;
+    }
+    
+    @keyframes zoomEffect {
+      from {
+        transform: scale(1.1);
+      }
+      to {
+        transform: scale(1);
+      }
+    }
+    
+    .hover-scale {
+      transition: transform 0.3s ease;
+    }
+    
+    .hover-scale:hover {
+      transform: scale(1.05);
+    }
+    
+    .group:hover .group-hover\:block {
+      display: block;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    .overflow-x-auto {
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: none;
+    }
+    
+    .overflow-x-auto::-webkit-scrollbar {
+      display: none;
+    }
+    </style>
+    </head>
+    <body class="bg-white">
+    
+    <!-- Announcement Bar -->
+    <div class="bg-gray-1000 py-2 px-4 text-sm text-center text-black">
+      Free Delivery for Nike Members. <a href="https://nike.com/membership" class="underline">Join Us</a>
+    </div>
+
+<!--nav-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Navigation Bar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style for the navbar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+
+        .navbar .dropdown .dropbtn {
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            background-color: #333;
+            border: none;
+            cursor: pointer;
+        }
+
+        .navbar .dropdown:hover .dropbtn {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #333;
+            min-width: 160px;
+            z-index: 1;
+        }
+
+        .navbar .dropdown-content a {
+            color: white;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .navbar .dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .navbar .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+        
+
+</body>
+</html>
+
+
+
+
+    
+    <!-- Navbar -->
+    <nav class="sticky top-0 z-50 bg-white border-b">
+      <div class="flex justify-between items-center px-4 py-3">
+        <div class="flex items-center space-x-8">
+          <svg xmlns="http://www.w3.org/2000/svg" width="58" height="20" viewBox="0 0 192.756 192.756">
+            <path fill="#000" d="M42.741 71.477c-9.881 11.604-19.355 25.994-19.355 36.871 0 5.406 2.065 10.021 6.601 13.277 10.609 7.613 22.819-2.718 35.84-13.584 11.633-9.744 23.669-19.795 40.272-19.795 21.157 0 33.598 14.797 47.953 31.892 8.989 10.723 19.178 22.883 32.598 30.187l2.216-3.449c-10.517-11.605-15.919-27.825-15.919-44.754 0-13.278 4.18-24.576 7.956-34.727 4.486-12.076 8.378-22.504.805-33.203-5.195-7.32-13.277-10.723-22.668-10.723-20.055 0-34.052 19.5-47.66 38.482-10.695 14.932-21.77 30.399-42.236 30.399-15.297 0-24.6-9.881-26.403-20.872z"/>
+          </svg>
+          <div class="hidden md:flex space-x-6">
+            <div class="group relative">
+              <a href="https://nike.com/new" class="hover:text-gray-500">New Featured</a>
+              <div class="hidden group-hover:block absolute top-full left-0 w-screen bg-white shadow-lg p-8">
+                <div class="grid grid-cols-4 gap-8">
+                  <div>
+                    <h3 class="font-bold mb-4">New Feature</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/new-arrivals">New Arrivals</a></li>
+                      <li><a href="https://nike.com/snkrs">new fashion</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Men</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/men/shoes">Shoes</a></li>
+                      <li><a href="https://nike.com/men/apparel">Apparel</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Women</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/women/shoes">Shoes</a></li>
+                      <li><a href="https://nike.com/women/apparel">Apparel</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Kids</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/kids/shoes">Shoes</a></li>
+                      <li><a href="https://nike.com/kids/apparel">Apparel</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group relative">
+              <a href="https://nike.com/men" class="hover:text-gray-500">Men</a>
+              <div class="hidden group-hover:block absolute top-full left-0 w-screen bg-white shadow-lg p-8">
+                <div class="grid grid-cols-4 gap-8">
+                  <div>
+                    <h3 class="font-bold mb-4">Shoes</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/men/shoes/running">Running</a></li>
+                      <li><a href="https://nike.com/men/shoes/basketball">Basketball</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Apparel</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/men/apparel/t-shirts">T-Shirts</a></li>
+                      <li><a href="https://nike.com/men/apparel/hoodies">Hoodies</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group relative">
+              <a href="https://nike.com/women" class="hover:text-gray-500">Women</a>
+              <div class="hidden group-hover:block absolute top-full left-0 w-screen bg-white shadow-lg p-8">
+                <div class="grid grid-cols-4 gap-8">
+                  <div>
+                    <h3 class="font-bold mb-4">Shoes</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/women/shoes/running">Running</a></li>
+                      <li><a href="https://nike.com/women/shoes/training">Training</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Apparel</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/women/apparel/t-shirts">T-Shirts</a></li>
+                      <li><a href="https://nike.com/women/apparel/leggings">Leggings</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group relative">
+              <a href="https://nike.com/kids" class="hover:text-gray-500">Kids</a>
+              <div class="hidden group-hover:block absolute top-full left-0 w-screen bg-white shadow-lg p-8">
+                <div class="grid grid-cols-4 gap-8">
+                  <div>
+                    <h3 class="font-bold mb-4">Shoes</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/kids/shoes/running">Running</a></li>
+                      <li><a href="https://nike.com/kids/shoes/basketball">Basketball</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Apparel</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/kids/apparel/t-shirts">T-Shirts</a></li>
+                      <li><a href="https://nike.com/kids/apparel/hoodies">Hoodies</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="group relative">
+              <a href="https://nike.com/sale" class="hover:text-gray-500">Sale</a>
+              <div class="hidden group-hover:block absolute top-full left-0 w-screen bg-white shadow-lg p-8">
+                <div class="grid grid-cols-4 gap-8">
+                  <div>
+                    <h3 class="font-bold mb-4">Shoes</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/sale/shoes">Shoes</a></li>
+                    </ul>
+                  </div>
+                  <div>
+                    <h3 class="font-bold mb-4">Apparel</h3>
+                    <ul class="space-y-2">
+                      <li><a href="https://nike.com/sale/apparel">Apparel</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex items-center space-x-4">
+          <div class="relative">
+            <input type="text" placeholder="Search" class="pl-8 pr-4 py-1 rounded-full bg-gray-100 focus:outline-none">
+            <svg class="w-4 h-4 absolute left-2 top-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+            </svg>
+          </div>
+          <div class="flex space-x-4">
+            <a href="https://nike.com/favorites" class="hover:text-gray-500">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"/>
+              </svg>
+            </a>
+            <a href="https://nike.com/cart" class="hover:text-gray-500">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="relative h-[600px] overflow-hidden">
+      <video autoplay loop muted playsinline class="w-full h-full object-cover">
+        <source src="nike.mp4" type="video/mp4">
+      </video>
+      <div class="absolute inset-0 flex flex-col justify-center items-center text-center text-white">
+        <h1 class="text-6xl font-bold mb-4">I LOVE YOU PERVEZ .WHAT ARE YOU WAITING FOR??? </h1>
+        <p class="text-xl mb-8">Just do it....</p>
+        <button class="bg-white text-black px-8 py-3 rounded-full hover:bg-gray-200">MARRY ME!!!</button>
+      </div>
+    </div>
+    
+    <!-- Top Categories Section -->
+    <div class="px-4 py-8">
+      <div class="flex overflow-x-auto space-x-4 pb-4">
+        <a href="https://nike.com/running" class="flex-none">
+          <div class="w-72 h-72 rounded-lg overflow-hidden relative hover-scale">
+            <img src="p1.jpg" class="w-full h-full object-cover" alt="Running">
+            <div class="absolute bottom-4 left-4 text-white">
+              <h3 class="font-bold">very popular COUPLE</h3>
+            </div>
+          </div>
+        </a>
+        <a href="https://nike.com/football" class="flex-none">
+          <div class="w-72 h-72 rounded-lg overflow-hidden relative hover-scale">
+            <img src="shoes3.jpg" class="w-full h-full object-cover" alt="Football">
+            <div class="absolute bottom-4 left-4 text-white">
+              <h3 class="font-bold">comfotable </h3>
+            </div>
+          </div>
+        </a>
+        <a href="https://nike.com/basketball" class="flex-none">
+          <div class="w-72 h-72 rounded-lg overflow-hidden relative hover-scale">
+            <img src="shoes4.jpg" class="w-full h-full object-cover" alt="Basketball">
+            <div class="absolute bottom-4 left-4 text-white">
+              <h3 class="font-bold">more uniqe</h3>
+            </div>
+          </div>
+        </a>
+        <a href="https://nike.com/training" class="flex-none">
+          <div class="w-72 h-72 rounded-lg overflow-hidden relative hover-scale">
+            <img src="shoes6.jpg" class="w-full h-full object-cover" alt="Training">
+            <div class="absolute bottom-4 left-4 text-white">
+              <h3 class="font-bold">best collection</h3>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    
+    <!-- Trending Section -->
+    <div class="px-4 py-16 bg-gray-100">
+      <h2 class="text-2xl font-bold mb-8">Trending Styles</h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div class="relative hover-scale">
+          <img src="shoes5.jpg" class="w-full rounded-lg" alt="Nike Air Force 1">
+          <div class="mt-4">
+            <h3 class="font-bold">Nike shoes code 111</h3>
+            <p class="text-gray-600">For kids </p>
+            <p class="mt-2">&#x20b9;5632 only</p>
+          </div>
+        </div>
+        <div class="relative hover-scale">
+          <img src="shoes7.jpg" class="w-full rounded-lg" alt="Nike Air Force 1">
+          <div class="mt-4">
+            <h3 class="font-bold">Nike shoes code222</h3>
+            <p class="text-gray-600">for man, woman & others Shoes</p>
+            <p class="mt-2">&#x20b9;5422 only</p>
+          </div>
+        </div>
+        <div class="relative hover-scale">
+          <img src="shoes8.jpg" class="w-full rounded-lg" alt="Nike Air Force 1">
+          <div class="mt-4">
+            <h3 class="font-bold">Nike shoes code 333</h3>
+            <p class="text-gray-600">for man, woman & others Shoes</p>
+            <p class="mt-2">&#x20b9;5433 only</p>
+          </div>
+        </div>
+        <div class="relative hover-scale">
+          <img src="download.jpg" class="w-full rounded-lg" alt="Nike Air Force 1">
+          <div class="mt-4">
+            <h3 class="font-bold">Nike shoes code 444</h3>
+            <p class="text-gray-600">for man, woman & others Shoes</p>
+            <p class="mt-2">&#x20b9; 5833 only</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+         <!-- Newsletter Section -->
+<section id="newsletter" style="background-color: #f9f9f9; padding: 40px 0;">
+    <div style="max-width: 600px; margin: 0 auto; text-align: center;">
+        <h2 style="font-size: 24px; color: #333;">Subscribe to Our Newsletter</h2>
+        <p style="font-size: 16px; color: #555;">Get the latest updates and news directly in your inbox.</p>
+
+        <!-- Newsletter Form -->
+        <form action="/submit-email" method="POST" style="display: flex; flex-direction: column; align-items: center;">
+            <input type="email" name="email" placeholder="Enter your email" required style="padding: 10px; width: 80%; margin-bottom: 15px; border: 1px solid #ccc; border-radius: 4px;">
+            <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 4px; cursor: pointer;">
+                Subscribe
+            </button>
+        </form>
+
+        <!-- Optional: Privacy Notice -->
+        <p style="font-size: 12px; color: #777; margin-top: 10px;">
+            We respect your privacy. No spam, just updates.
+        </p>
+    </div>
+</section>
+
+    
+
+
+    
+
+    
+    
+    <!-- Footer -->
+    <footer class="bg-black text-white px-4 py-12">
+      <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div>
+          <h4 class="font-bold mb-4">FIND A STORE</h4>
+          <h4 class="font-bold mb-4">BECOME A MEMBER</h4>
+          <h4 class="font-bold mb-4">SIGN UP FOR EMAIL</h4>
+          <h4 class="font-bold mb-4">FEEDBACK</h4>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">GET HELP</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="https://nike.com/order-status">Order Status</a></li>
+            <li><a href="https://nike.com/shipping">Shipping &amp; Delivery</a></li>
+            <li><a href="https://nike.com/returns">Returns</a></li>
+            <li><a href="https://nike.com/payment">Payment Options</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="font-bold mb-4">ABOUT NIKE</h4>
+          <ul class="space-y-2 text-gray-400">
+            <li><a href="https://nike.com/about">News</a></li>
+            <li><a href="https://nike.com/careers">Careers</a></li>
+            <li><a href="https://nike.com/investors">Investors</a></li>
+            <li><a href="https://nike.com/sustainability">Sustainability</a></li>
+          </ul>
+        </div>
+        <div class="flex space-x-4">
+          <a href="https://twitter.com/nike" class="hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+            </svg>
+          </a>
+          <a href="https://facebook.com/nike" class="hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+          <a href="https://youtube.com/nike" class="hover:text-gray-400">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="max-w-6xl mx-auto mt-12 pt-8 border-t border-gray-800 text-gray-400 text-sm">
+        <div class="flex justify-between flex-wrap">
+          <p> 2023 Nike, Inc. All Rights Reserved</p>
+          <div class="space-x-4">
+            <a href="https://nike.com/guides">Guides</a>
+            <a href="https://nike.com/terms">Terms of Sale</a>
+            <a href="https://nike.com/terms">Terms of Use</a>
+            <a href="https://nike.com/privacy">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <script>document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('opacity-100');
+          entry.target.classList.remove('opacity-0');
+        }
+      });
+    });
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));</script>
+    </body></html>
